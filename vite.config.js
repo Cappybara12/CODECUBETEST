@@ -9,4 +9,5 @@ export default defineConfig({
       svgrOptions: {},
     }),
   ],
+  base: '/', // Ensures the base path is set correctly
 });
