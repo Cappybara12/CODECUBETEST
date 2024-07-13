@@ -21,13 +21,17 @@ const judges = () => {
         <h1>mentor panel</h1>
       </div>
       <section className="judges">
-      {/* <Judge3 mem = {set1} />
+        
+      <Judge3 mem = {set1} />
       <Judge3 mem = {set2} />
       <Judge3 mem = {set3} />
-      <Judge3 mem = {set4} /> */}
-      <h1 className="title">COMING SOON!</h1>
+      <Judge3 mem = {set4} />
+      
+      {/* <h1 className="title">COMING SOON!</h1> */}
       </section>
+      
     </div>
+    
   );
 };
 
