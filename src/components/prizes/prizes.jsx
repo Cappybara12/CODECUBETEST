@@ -3,8 +3,9 @@ import "./prizes.css";
 const Prizes = () => {
   return (
     <section id="prizes" className="prizesContainer">
+      <br></br>
       <div className="convener-title">
-        <img src="/images/rrr.webp" alt="" className="convener-logo" />
+        <img src="/images/BulletPoint.svg" alt="arrow-logo" id="arrow-logo-prizes" />
         <h1 className="convener-title-name">Prize Pool</h1>
       </div>
 

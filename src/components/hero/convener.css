@@ -22,7 +22,7 @@
 .convener-title {
   position: relative;
 }
-.convener-title-name {
+#convener-title-name {
   font-size: 45px;
   margin-left: 6vw;
   color: white;
@@ -34,8 +34,8 @@
   gap: 2vw;
   position: relative;
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
-    font-size: 40px;
-    margin-left: 15vw;
+    font-size: 2rem;
+    margin-left: 30vw;
   }
 }
 
@@ -77,6 +77,19 @@
     gap: 5vh;
   }
 }
+
+img#arrow-logo-convener {
+  position: absolute;
+  z-index: 1;
+  top: 0vh;
+  left: 0vw;
+  width: 60px;
+
+  @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
+    display: none;
+  }
+}
+
 .convener-card {
   display: flex;
   flex-direction: column;
@@ -116,6 +129,7 @@
   width: 251px;
   @media all and (max-width: 768px) and (orientation: portrait) {
     font-size: 15px;
+    text-align: center;
   }
 }
 .convener-dep {

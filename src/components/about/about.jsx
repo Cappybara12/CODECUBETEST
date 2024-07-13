@@ -55,7 +55,7 @@ const about = () => {
 
         <div className="srmvec">
           <div
-            className="about-srmvec-title "
+            className="about-srmvec-title"
             id="about-left"
             onClick={() => handleWebClicks("https://www.srmvalliammai.ac.in")}
           >

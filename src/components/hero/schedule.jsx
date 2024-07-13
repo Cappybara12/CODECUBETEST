@@ -29,7 +29,7 @@ const schedule = () => {
         <div className="parent-schedule">
 
           <div className="schedule-title">
-            <img src="/images/BulletPoint.svg" alt="arrow-logo" />
+            <img src="/images/BulletPoint.svg" alt="arrow-logo" id="arrow-logo-schedule" />
             Schedule
           </div>
 

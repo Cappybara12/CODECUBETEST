@@ -147,16 +147,15 @@
 }
 .about-srmvec-title {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 1vw;
+  gap: 30px;
   font-family: russo one;
   font-size: 3.5vw;
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 2px;
   background-color: white;
-
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -166,8 +165,16 @@
     font-size: 7vw;
     margin: 0;
     padding: 0vh 2vw;
-    justify-content: start;
+    justify-content: center;
     width: 100%;
+    gap: 20px;
+  }
+}
+
+.about-srmvec-title img {
+  width: 10vw;
+  @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
+    width: 15vw;
   }
 }
 

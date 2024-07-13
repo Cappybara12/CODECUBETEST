@@ -73,7 +73,6 @@ const sponsors = () => {
 
           
         </section>
-
         <Prizes />
         <Faqs />
         <Convener />
