@@ -64,11 +64,11 @@ const about = () => {
               src="/images/CodeKshetraLogo.svg"
               alt="srmvec logo"
             />
-            <img
+            {/* <img
               className="about-srmvec-logo"
               src="/images/CCLogo.png"
               alt="srmvec logo"
-            />
+            /> */}
             <img
               className="about-srmvec-logo"
               src="/images/CCLogo.png"
