@@ -242,8 +242,8 @@ coding experience in the town.
               <div className="flex justify-items-start">
                 <h3 className="text7">Problem Statements</h3>
               </div>
-              <p className="text8" onClick={() => handleCardClicks("/set1")}>
-                Click here <ArrowRightBlack className="arrow-right-icon" />
+              <p className="text8" onClick={() => handleCardClicks("/")}>
+                Coming Soon! <ArrowRightBlack className="arrow-right-icon" />
               </p>
             </div>
             {/* -------------------------- Column 4  ---------------------------------- */}
