@@ -1,6 +1,6 @@
 .parent-judges {
   width: 100%;
-  height: 100vh;
+  height: 96vh;
   position: relative;
   display: flex;
   flex-flow: column nowrap;
@@ -95,7 +95,7 @@ position: relative;
  width: 27vw;
  height: 100%;
  margin: 0 auto; 
- opacity: 0.08;
+ opacity: 1;
  transition: all 0.5s ease;
  border: none;
  /* background-color: yellow; */
