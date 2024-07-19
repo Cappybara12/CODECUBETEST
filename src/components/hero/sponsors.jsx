@@ -28,7 +28,7 @@ const sponsors = () => {
         </section>
 
       <div className="schedule-title">
-            <img src="/images/BulletPoint.svg" alt="arrow-logo" />
+        <img src="/images/BulletPoint.svg" alt="arrow-logo" id="arrow-logo-sponsors-bottom"/>
             Our Sponsors
       </div>
 
