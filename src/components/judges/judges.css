@@ -85,7 +85,7 @@
 
 }
 .judge3_single:hover .judge3_single-inner {
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 .judge3_single-inner{
@@ -95,7 +95,7 @@ position: relative;
  width: 27vw;
  height: 100%;
  margin: 0 auto; 
- opacity: 1;
+ opacity: 0.5;
  transition: all 0.5s ease;
  border: none;
  /* background-color: yellow; */
