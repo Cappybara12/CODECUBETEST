@@ -13,17 +13,33 @@ const sponsors = () => {
 
       <div className="schedule-title">
             <img src="/images/BulletPoint.svg" alt="arrow-logo" />
+            Title Sponsors
+      </div>
+
+        <section class="grid-container">
+
+        <div class="grid grid-items-center mt-4 large-mt-8">
+            <img
+              src="/images/orkes.png"
+              alt="brand6"
+              class="brand-image medium-image"
+            />
+          </div>
+        </section>
+
+      <div className="schedule-title">
+            <img src="/images/BulletPoint.svg" alt="arrow-logo" />
             Our Sponsors
       </div>
 
         <section class="grid-container">
 
         <div class="grid grid-4-cols gap-4 grid-items-center mt-4 large-mt-8">
-            <img
+            {/* <img
               src="/images/IMG_6965-removebg-preview 1.png"
               alt="brand6"
               class="brand-image medium-image"
-            />
+            /> */}
             <img
               src="/images/IMG_6967 1.png"
               alt="brand7"
@@ -71,21 +87,7 @@ const sponsors = () => {
             />
           </div>
           </section>
-          <div className="schedule-title">
-            <img src="/images/BulletPoint.svg" alt="arrow-logo" />
-            Title Sponsors
-      </div>
-
-        <section class="grid-container">
-
-        <div class="grid grid-items-center mt-4 large-mt-8">
-            <img
-              src="/images/IMG_6965-removebg-preview 1.png"
-              alt="brand6"
-              class="brand-image medium-image"
-            />
-          </div>
-        </section>
+         
         <Prizes />
         <Faqs />
         <Convener />
