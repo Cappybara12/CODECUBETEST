@@ -117,7 +117,7 @@ img#arrow-logo-schedule {
 }
 
 .timelineAnimation::after {
-  animation: timelineLine 10s linear forwards;
+  animation: timelineLine 5s linear forwards;
 }
 @keyframes timelineLine {
   0% {
@@ -170,32 +170,32 @@ img#arrow-logo-schedule {
 }
 .container:nth-child(3),
 .container-mobile:nth-child(3) {
-  animation-delay: 2s;
+  animation-delay: 1.5s;
 }
 .container:nth-child(4),
 .container-mobile:nth-child(4) {
-  animation-delay: 3s;
+  animation-delay: 2s;
 }
 .container:nth-child(5),
 .container-mobile:nth-child(5) {
-  animation-delay: 4s;
+  animation-delay: 2.5s;
 }
 .container:nth-child(6),
 .container-mobile:nth-child(6) {
-  animation-delay: 5s;
+  animation-delay: 3s;
 }
 .container:nth-child(7),
 .container-mobile:nth-child(7) {
-  animation-delay: 6s;
+  animation-delay: 3.5s;
 }
 .container:nth-child(8),
 .container-mobile:nth-child(8) {
-  animation-delay: 7s;
+  animation-delay: 4s;
 }
 
 .container:nth-child(9),
 .container-mobile:nth-child(9) {
-  animation-delay: 8s;
+  animation-delay: 4.5s;
 }
 
 .container:nth-child(even) {

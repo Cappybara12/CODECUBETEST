@@ -15,6 +15,8 @@ import {
   Verify,
   Login,
 } from "./components";
+import ProblemStatement from "./components/problemstatement/problemstatement";
+
 
 import ReactGA from "react-ga";
 ReactGA.initialize("K6F7N5MR4K");
@@ -97,6 +99,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         />
         <Route path="/qr/verify/:id" element={<Verify />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/problem-statements" element={<div><Navbar />
+          <ProblemStatement /></div>} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
