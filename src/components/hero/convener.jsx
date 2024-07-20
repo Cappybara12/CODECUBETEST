@@ -52,13 +52,13 @@ const convener = () => {
           <div className="convener-card">
             <img
               className="convener-card-image"
-              src="/images/ayon.webp"
+              src="/images/dipali.jpeg"
               alt="Senthil Kumar - HOD Cyber Security"
             />
-            <h1 className="convener-name"> Ayon Roy</h1>
+            <h1 className="convener-name"> Dipali Kulshrestha </h1>
 
             <h1 className="convener-position">
-            Executive Data Scientist @ NielsenIQ{" "}
+            Vice President @ NatWest Group{" "}
             </h1>
           </div>
         </div>
