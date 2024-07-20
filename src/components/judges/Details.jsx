@@ -74,8 +74,8 @@ export const set3 = [
   {
     Img: "/images/judgeP/akshay.jpg",
     name: "Akshay Sharma",
-    desig: "Event management Head",
-    org: "Geek Room",
+    desig: "Devops Engineer",
+    org: "BumbleBee Labs",
     nameStyle: { left: "-7vw", top: "14vh", color: "rgba(0, 0, 0, 0.8)" },
   },
 ];
