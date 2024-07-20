@@ -1,0 +1,72 @@
+.parent-content {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.content-title {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#arrow-logo {
+    margin-right: 10px;
+}
+
+.content-section {
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+.content {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.content-title {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+#arrow-logo-problem-statement {
+    width: 80px;
+    height: 80px;
+}
+
+.content-description {
+    display: none;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.visible {
+    display: block;
+}
+
+.faqs-arrow {
+    transition: transform 0.3s ease;
+}
+
+.arrow-transform {
+    transform: rotate(90deg);
+}
+
+
+@media screen and (max-width: 768px) {
+    .content-title {
+        font-size: 1.2rem;
+    }
+
+    .content-description {
+        font-size: 0.9rem;
+    }
+
+    #arrow-logo-problem-statement {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+    }
+}

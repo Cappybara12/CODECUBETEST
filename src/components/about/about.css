@@ -3,6 +3,7 @@
   isolation: isolate;
 }
 .parent-about {
+  min-height: 100vh;
   position: relative;
   padding-top: 10vh;
   padding-left: 3vw;
