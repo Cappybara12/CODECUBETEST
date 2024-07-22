@@ -2,8 +2,7 @@
 import { FcGoogle } from "react-icons/fc";
 import "./login.css";
 import { GoogleAuthProvider, signInWithPopup, signOut } from "firebase/auth";
-import { auth } from "../../lib/firebase";
-import { useAuthState } from "react-firebase-hooks/auth";
+
 import { useState } from "react";
 import Notallowed from "../qr/notallowed";
 

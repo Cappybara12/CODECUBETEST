@@ -1,7 +1,7 @@
 "use client";
 import { useParams } from "react-router-dom";
-import { auth } from "../../lib/firebase";
-import { useAuthState } from "react-firebase-hooks/auth";
+// import { auth } from "../../lib/firebase";
+// import { useAuthState } from "react-firebase-hooks/auth";
 import { useState } from "react";
 import Notallowed from "./notallowed";
 import Success from "./success";

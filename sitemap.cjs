@@ -20,10 +20,7 @@ async function generateSitemap() {
     "/#contact",
   ];
 
-  const smStream = new SitemapStream({
-    hostname: "https://www.hackatank.tech",
-  });
-
+ 
   staticRoutes.forEach((route) => {
     smStream.write({
       url: route,
