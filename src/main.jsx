@@ -89,7 +89,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           }
         />
         <Route
-          path="/judges"
+          path="/mentors"
           element={
             <div>
               <Navbar />
