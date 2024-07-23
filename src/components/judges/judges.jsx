@@ -18,7 +18,7 @@ import {
 } from "./Details";
 const judges = () => {
   useEffect(() => {
-    document.title = "Judge Panel | Hack a Tank";
+    document.title = "Mentor Panel";
   }, []);
 
   return (

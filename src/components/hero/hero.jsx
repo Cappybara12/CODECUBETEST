@@ -232,7 +232,7 @@ coding experience in the town.
                 About Us
                 <ArrowRightWhite className="arrow-right-icon" />
               </p>
-              <p className="text6" onClick={() => handleCardClicks("/judges")}>
+              <p className="text6" onClick={() => handleCardClicks("/mentors")}>
                 Mentor Panel
                 <ArrowRightWhite className="arrow-right-icon" />
               </p>
