@@ -29,7 +29,7 @@ const Prizes = () => {
         <div className="thirdContainer">
           <div className="gradient-silver"></div>
           <h1 className="title">5K</h1>
-          <h5 className="subtitle">3rd Prize - Best Problem Statement</h5>
+          <h5 className="subtitle">4th Prize</h5>
         </div>
       </div>
     </section>
