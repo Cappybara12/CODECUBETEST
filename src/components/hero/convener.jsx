@@ -19,7 +19,7 @@ const convener = () => {
             <h1 className="convener-name"> Sunchit Dudeja</h1>
 
             <h1 className="convener-position">
-            One of the Youngest SDE-V @ Adobe{" "}
+            SDE{" "}
             </h1>
           </div>
 
